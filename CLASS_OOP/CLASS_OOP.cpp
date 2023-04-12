@@ -22,7 +22,7 @@ public:
 
 void Mahasiswa::printData() {
 	cout << "\nData Mahasiswa";
-	cout < , "\nNIM : " << nim;
+	cout << "\nNIM : " << nim;
 	cout << "\nNamanya : " << nama;
 	cout << "\nNilai : " << nilai;
 }
