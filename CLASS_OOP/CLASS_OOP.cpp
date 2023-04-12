@@ -32,4 +32,12 @@ private:
 	string kode;
 	string namaMK;
 	int sks;
-}
+public:
+	void inputMK() {
+		cout << "\n\nMasukan Kode Matakuliah : ";
+		cin >> kode;
+		cout << "Masukan Nama Matakuliah : ";
+		cin >> namaMK;
+		cout << "Masukan SKS : ";
+		cin >> sks;
+	}
