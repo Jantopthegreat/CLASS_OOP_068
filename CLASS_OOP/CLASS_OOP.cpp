@@ -16,4 +16,10 @@ public:
 		cin >> nilai;
 
 	}
+	void printData();
 };
+
+
+void Mahasiswa::printData() {
+
+}
